@@ -1,0 +1,121 @@
+.main-body2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.backgrounds1{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  z-index: -1;
+}
+
+.backdiv3{
+  margin-top: 0%;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  background-color: rgba(0, 0, 0, 0.29)
+}
+
+.backdiv4{
+  z-index: -2;
+  width: 50%;
+  margin-top: 0%;
+  overflow-x: hidden;
+  fill: black;
+}
+
+.backdiv5{
+  z-index: -2;
+  width: 50%;
+  margin-top: 0%;
+  overflow-x: hidden;
+}
+
+.back4{
+  width: 195%;
+}
+
+.back5{
+  width: 195%;
+}
+
+.SignBody{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 5px;
+}
+.signintitle{
+    font-family: "Monaco", monospace;
+}
+
+.email-prompt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.password-prompt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.labels{
+    margin-right: 55%;
+    font-family: "Monaco", monospace;
+}
+
+.prompt1{
+    -webkit-text-security : circle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    height: 20%;
+}
+
+.prompt{
+    width: 100%;
+    font-family: "Monaco", monospace;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 20%;
+}
+
+.submit-button{
+    margin-top: 90%;
+    margin-bottom: 25%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-family: "Monaco", monospace;
+    font-size: 1em;
+    width: 130%;
+    margin-left: -12%;
+}
+
+.submit-button:hover{
+    background-color: rgb(186, 184, 184);
+}
+
+.makeaccount{
+    text-decoration: underline;
+    font-family: "Monaco", monospace;
+    color: white;
+}

@@ -1,0 +1,33 @@
+.mainbody{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: right;
+}
+
+.button{
+    border: none;
+    border-right: solid;
+    font-family: "Monaco", monospace;
+    cursor: pointer;
+    width: 10%;
+    font-size: 1.5em;
+    padding: 1%;
+    background: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: rgb(186, 185, 185);
+}

@@ -1,0 +1,104 @@
+
+.big-body{
+  position: fixed;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.title{
+  display: flex;
+  color: #f1f1f1;
+  font-family: "Monaco", monospace;
+  background:rgb(0, 0, 0);
+  margin-left: -5%;
+  width: 110%;
+  justify-content: center;
+  margin-top: 3%;
+  border: 3px solid white;
+  font-size: 100px;
+}
+
+.backgrounds{
+  width: 100%;
+  display: flex;
+  z-index: -1;
+}
+
+.backdiv0{
+  margin-top: -20%;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 120%;
+  background-color: rgba(0, 0, 0, 0.29)
+}
+
+.backdiv1{
+  z-index: -2;
+  width: 50%;
+  margin-top: -20%;
+  overflow-x: hidden;
+  fill: black;
+}
+
+.backdiv2{
+  z-index: -2;
+  width: 50%;
+  margin-top: -20%;
+  overflow-x: hidden;
+}
+
+.back1{
+  width: 222.5%;
+}
+
+.back2{
+  width: 222.5%;
+}
+
+.calen{
+  border-radius: 10px;
+  width: 30%;
+  left: 10%;
+  top: 40%;
+  position: fixed;
+}
+
+.planner-button{
+  font-family: "Monaco", monospace;
+  height: 5%;
+  width: 15%;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border-width: 0.4em;
+  border-color: white;
+  left: 30%;
+  top: 34%;
+  position: fixed;
+  cursor: pointer;
+
+}
+
+.split-maker{
+  border-radius: 10px;
+  width: 25%;
+  right: 10%;
+  top: 35%;
+  position: fixed;
+}
+
+.split-button{
+  font-family: "Monaco", monospace;
+  height: 5%;
+  width: 15%;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border-width: 0.4em;
+  border-color: white;
+  right: 30%;
+  top: 75.5%;
+  position: fixed;
+  cursor: pointer;
+}
